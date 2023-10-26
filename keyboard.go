@@ -7,6 +7,7 @@ import (
 	"strings"
 )
 
+// Get Float value from keyboard
 func GetFloat() (float64, error) {
 	reader := bufio.NewReader(os.Stdin)
 	input, err := reader.ReadString('\n')
